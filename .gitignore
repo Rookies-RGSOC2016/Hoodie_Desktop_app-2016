@@ -1,1 +1,23 @@
-*.node_modules
+# The following files are ignored by git, 
+# in other words, not tracked by git.
+
+# for our particular project
+bower_components
+.tmp
+dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+
+# Compiled files
+build
+
+# Dependency directory
+node_modules
