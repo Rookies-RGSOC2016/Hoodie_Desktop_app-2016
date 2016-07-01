@@ -133,6 +133,20 @@ margin: 0 auto;
 padding-left: 20px;
 }
 
+.content-left {
+  border-right: 1px solid #333;
+  height: 100%;
+  padding-right: 30px;
+}
+
+.hidden{
+    display:none;
+}
+
+.unhidden{
+    display:block;
+}
+
 /*custom 2*/
 
 .welcome{
