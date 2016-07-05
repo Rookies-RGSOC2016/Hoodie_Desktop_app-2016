@@ -19,3 +19,10 @@ $(function() {
 	});
 
 });
+
+var el = document.querySelector("#create-app-btn");
+if (el) {
+  el.addEventListener("click", function(){
+    document.querySelector("#create-app").style.display = "block";
+  });
+}
