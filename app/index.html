@@ -20,14 +20,6 @@
   <!-- build:js scripts/vendor/modernizr.js -->
   <script src="bower_components/modernizr/modernizr.js"></script>
   <!-- endbuild -->
-  <!-- <script>
-  function unhide(){
-    var item = document.getElementById('createApp');
-    item.innerHTML = "test test";
-    //item.innerHTML= '<object type="text/html" data="AppName.html" ></object>';
-  }
-
-  </script> -->
 </head>
 <body>
   <!--[if lt IE 10]>
@@ -99,7 +91,7 @@
                 <li class="list-group-item">
                   <button id="create-app-btn" type ="button" class="btn btn-primary btn-lg btn-block">New App<i class="glyphicon glyphicon-plus-sign pull-right"></i></button>
                 </li>
-                <div id="create-app">display create app contents
+                <div id="create-app">
                   <!-- well, create app -->
                   <div class ="well">
                     <div class="container-fluid">
@@ -107,7 +99,7 @@
                       <h3 class="text-center">Let's create Hoodie App :D</h3>
                       <div class="form-actions">
                         <p class="label_size text-center">App Name</p>
-                        <input type="text" class="form-control from-size" placeholder="Type your app name">
+                        <input type="text" class="form-control from-size" placeholder="Type your app name" id="new-App-Name">
                       </div>
                       <button type="button" class="btn btn_cancel pull-right btn_size_move">Cancel</button>
                       <button type="submit" class="btn btn-primary pull-right btn_size_move" onClick="self.location='detail_app_page.html'">create</button>
